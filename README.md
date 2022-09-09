@@ -2,4 +2,5 @@
 
 Teste feito com React JS
 
-![Capturar](https://user-images.githubusercontent.com/73178068/189271600-28c2d8de-2ced-45e2-b553-03afc97c08c0.PNG)
+![Capturar](https://user-images.githubusercontent.com/73178068/189271766-1ae6c149-e650-41e2-9d92-31ff41f8e8d1.PNG)
+
