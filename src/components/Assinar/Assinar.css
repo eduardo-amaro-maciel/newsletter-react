@@ -1,0 +1,89 @@
+.assinar {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    margin-top: -120px;
+}
+
+.title {
+    font-size: 4rem;
+    text-transform: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #66ff66;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.subtexto {
+    font-size: 22px;
+    text-transform: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dfdfdf;
+    margin-bottom: 30px;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px #999;
+}
+
+.form-assinar {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+.form-assinar input[type=email] {
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 0 0 0;
+    padding: 10px 0px 10px 55px;
+    border-radius: 7px 0px 0px 7px;
+    background-color: transparent;
+    backdrop-filter: blur(13px);
+    color: #fff;
+    border: solid #fff;
+    border-width: 2px 0 2px 2px;
+    transition: .3s;
+    background-image: url('../../../img/mail-icon.svg');
+    background-repeat: no-repeat;
+    background-size: 32px;
+    background-position: 10px center;
+}
+
+.form-assinar input[type=email]:focus {
+    transition: .5s;
+    width: 60%;
+    border: solid #66ff66;
+}
+
+.form-assinar input[type=email]::placeholder {
+    color: #fff;
+    opacity: .8;
+}
+
+.form-assinar .btn {
+    height: 100%;
+    height: 100%;
+    background-color: #66ff66;
+    color: #1f1f1f;
+    border-radius: 0px 7px 7px 0;
+    border: solid #66ff66;
+    border-width: 2px 0 2px 2px;
+    font-weight: 600;
+}
+
+.btn-politica {
+    color: #f1f1f1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #f1f1f1;
+    cursor: pointer;
+}
